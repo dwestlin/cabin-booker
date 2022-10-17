@@ -1,1 +1,82 @@
-[{"id":1,"title":"Östergransjö","adress":"Östergransjö 248, 88231 Helgum","maxBeds":"4","description":"En pärla vid helgumssjön","isBooked":false},{"id":2,"title":"Österforse","adress":"Bruket 231, 88391 Långsele","maxBeds":"6","description":"En pärla vid helgumssjön","isBooked":true,"bookedBy":"daniel"},{"id":3,"title":"Långsele","adress":"Vattuvägen 10, 88240 Långsele","maxBeds":"12","description":"En pärla vid helgumssjön","isBooked":false},{"id":4,"title":"Helgum","adress":"Strandvägen 1, 88231 Helgum","maxBeds":"4","description":"En pärla vid helgumssjön","isBooked":false},{"id":5,"title":"Helgum","adress":"Strandvägen 1, 88231 Helgum","maxBeds":"4","description":"En pärla vid helgumssjön","isBooked":false},{"id":6,"title":"Helgum","adress":"Strandvägen 1, 88231 Helgum","maxBeds":"4","description":"En pärla vid helgumssjön","isBooked":false},{"id":6,"title":"Helgum","adress":"Strandvägen 1, 88231 Helgum","maxBeds":"4","description":"En pärla vid helgumssjön","isBooked":false},{"id":7,"title":"Helgum","adress":"Strandvägen 1, 88231 Helgum","maxBeds":"4","description":"En pärla vid helgumssjön","isBooked":false},{"id":8,"title":"Helgum","adress":"Strandvägen 1, 88231 Helgum","maxBeds":"4","description":"En pärla vid helgumssjön","isBooked":false},{"id":9,"title":"Helgum","adress":"Strandvägen 1, 88231 Helgum","maxBeds":"4","description":"En pärla vid helgumssjön","isBooked":false}]
+[
+  {
+    "id": 1,
+    "title": "Östergransjö",
+    "adress": "Östergransjö 248, 88231 Helgum",
+    "maxBeds": "4",
+    "description": "En pärla vid helgumssjön",
+    "isBooked": false
+  },
+  {
+    "id": 2,
+    "title": "Österforse",
+    "adress": "Bruket 231, 88391 Långsele",
+    "maxBeds": "6",
+    "description": "En stuga vid bruket i österfors",
+    "isBooked": false
+  },
+  {
+    "id": 3,
+    "title": "Långsele",
+    "adress": "Vattuvägen 10, 88240 Långsele",
+    "maxBeds": "12",
+    "description": "En större stuga vid ett bostadsområde",
+    "isBooked": false
+  },
+  {
+    "id": 4,
+    "title": "Helgum",
+    "adress": "Strandvägen 1, 88231 Helgum",
+    "maxBeds": "6",
+    "description": "En stuga precis nere vid vattnet i helgum",
+    "isBooked": false
+  },
+  {
+    "id": 5,
+    "title": "Helgum",
+    "adress": "Strandvägen 8, 88231 Helgum",
+    "maxBeds": "12",
+    "description": "Ett vinterbonat fritidshus beläget vid vattnet.",
+    "isBooked": false
+  },
+  {
+    "id": 6,
+    "title": "Helgum",
+    "adress": "Ledingå 123, 88231 Helgum",
+    "maxBeds": "8",
+    "description": "Fritidshus vid ledingån",
+    "isBooked": false
+  },
+  {
+    "id": 6,
+    "title": "Sollefteå",
+    "adress": "Norra Ådalsvägen 2, 88231 Sollefteå",
+    "maxBeds": "2",
+    "description": "Enrums stuga som har en kamin och öppen spis",
+    "isBooked": false
+  },
+  {
+    "id": 7,
+    "title": "Långsele",
+    "adress": "Koppargatan 3, 88231 Långsele",
+    "maxBeds": "6",
+    "description": "Stuga med alla möjliga bekvämligheter",
+    "isBooked": false
+  },
+  {
+    "id": 8,
+    "title": "Helgum",
+    "adress": "Rådom 324, 88231 Helgum",
+    "maxBeds": "4",
+    "description": "Fritidshus i skogen utan rinnande vatten & avlopp",
+    "isBooked": false
+  },
+  {
+    "id": 9,
+    "title": "Långsele",
+    "adress": "Vikengatan 2, 88231 Långsele",
+    "maxBeds": "5",
+    "description": "Fritidshus med åretrunt standard",
+    "isBooked": false
+  }
+]
