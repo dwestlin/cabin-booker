@@ -8,8 +8,8 @@ const fetchAvailableCabins = () => {
 
   return fetch(`${API_URL}/cabins`, options)
     .then((response) => response.json())
-    .then((data) => {
-      return data;
+    .then((result) => {
+      return result.data;
     });
 };
 
@@ -28,8 +28,8 @@ const fetchBookedCabins = () => {
 
   return fetch(`${API_URL}/admin/cabins`, options)
     .then((response) => response.json())
-    .then((data) => {
-      return data;
+    .then((result) => {
+      return result.data;
     })
     .catch((error) => console.error(error));
 };
@@ -48,8 +48,8 @@ const bookCabin = (id, mailadress) => {
 
   return fetch(`${API_URL}/cabin`, options)
     .then((response) => response.json())
-    .then((data) => {
-      if (!data.status) {
+    .then((result) => {
+      if (!result.data.status) {
         return {
           status: false,
           message: `Något gick fel i bokningen, prova igen`,

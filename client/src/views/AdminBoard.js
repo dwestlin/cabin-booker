@@ -9,7 +9,7 @@ const Home = () => {
     const fetchData = async () => {
       try {
         const results = await fetchBookedCabins();
-        setCabins(results.data);
+        setCabins(results);
       } catch (error) {
         console.error(error);
       }

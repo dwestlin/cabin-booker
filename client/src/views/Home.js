@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       const results = await fetchAvailableCabins();
-      setCabins(results.data);
+      setCabins(results);
     };
     fetchData();
   }, []);

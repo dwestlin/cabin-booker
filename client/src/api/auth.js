@@ -9,8 +9,9 @@ const login = (username, password) => {
 
   return fetch(`${API_URL}/login`, options)
     .then((response) => response.json())
-    .then((data) => {
-      if (data.accessToken) localStorage.setItem("user", JSON.stringify(data));
+    .then((result) => {
+      if (result.data.accessToken)
+        localStorage.setItem("user", JSON.stringify(result.data));
     });
 };
 
